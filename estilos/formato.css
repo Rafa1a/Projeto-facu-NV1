@@ -12,22 +12,36 @@
 body, html{
     
     height: 100vh;
-    background-image: url('../imagens/');
+    background-image: url('../imagens/home.png');
+    background-position: top center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
-h1{
-    padding: 50px;
-}
-h1, p {
-    font-family: 'Ubuntu', sans-serif;
+header > nav > ul > li > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
 main{
-    margin: 480px 0px;
-    background-color: aqua;
+    
+
 }
 section{
     
+    
 } 
+div > h1{
+    padding: 50px;
+    color: white;
+}
+p {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
 .logo{
     width: 150px;
     height: 150px;
@@ -36,15 +50,22 @@ section div{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    align-content: center;
+    align-content: center;
+    
     
 
-    background-color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.678);
     margin: 50px;
+
+    border-radius: 20px;
 }
 
 footer{
     position: relative;
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.445);
+    color: white;
 
     
 }
