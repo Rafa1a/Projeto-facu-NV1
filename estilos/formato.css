@@ -9,32 +9,35 @@
     margin: 0px;
     padding: 0px;
 }
-body, html{
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
     
     height: 100vh;
     background-image: url('../imagens/home.png');
     background-position: top center ;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
+    background-clip: content-box;
     
 }
-header > nav > ul > li > a{
-    color: white;
-    text-decoration: none;
-    padding: 10px;
+/*Header*/
+header{
+    background-color: coral;
+    box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.63);
+    height: 60px;
 }
-
-main{
-    
-
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;   
 }
-section{
-    
-    
-} 
+/*main*/
 div > h1{
     padding: 50px;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 p {
     font-family: 'Ubuntu', sans-serif;
@@ -51,21 +54,32 @@ section div{
     flex-flow: row wrap;
     justify-content: center;
     align-content: center;
-    align-content: center;
+    flex: 1 0 0;
+    max-width: 1080px;
     
-    
-
     background-color: rgba(0, 0, 0, 0.678);
-    margin: 50px;
-
+    
+    margin: auto;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
+div#text{
+    max-width: 750px;
+    margin: auto;
+}
+
+/*footer*/
 footer{
     position: relative;
     text-align: center;
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgb(255, 127, 80);
     color: white;
-
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.568);
     
+    
+}
+footer > h2{
+    font-size: 1.6em;
+    padding: 5px;
 }

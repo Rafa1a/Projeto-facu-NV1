@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+
+
+@import url('https://fonts.googleapis.com/css2? family= Open+Sans & family= Ubuntu & display=swap');
+
+*{
+    font-family: 'Open Sans', sans-serif, Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+/*Header*/
+header{
+    background-color: coral;
+    height: 60px;
+    box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.63);
+}
+nav li{
+    display: inline-block;
+    margin: 0 0 0 15px;
+      
+}
+/*main*/
+p{
+    text-align: justify;
+}
+/*footer*/
+footer{
+    position: relative;
+    text-align: center;
+    background-color: rgb(255, 127, 80);
+    color: white;
+    box-shadow: inset 0px 4px 8px rgba(0, 0, 0, 0.568); 
+  
+}
+footer > h2{
+    font-size: 1.6em;
+    padding: 5px;
+}

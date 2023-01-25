@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+section { 
+    max-width: 1450px;
+    margin: auto;
+}
+
+input{
+    min-width: 25px;
+    min-height: 30px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+ul{
+    list-style: none;
+    text-align: justify;
+    font-size: .7em;
+    font-weight: 700;
+  
+}
+
+div.card-deck{
+    margin-bottom:50px;
+}
+
+
+
+input:checked +label{
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.514);
+}
