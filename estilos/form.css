@@ -3,3 +3,9 @@
 body{
     background-color: #072733f5;
 }
+section div{
+    background-color: coral;
+}
+form{
+    padding-left: 40%;
+}
