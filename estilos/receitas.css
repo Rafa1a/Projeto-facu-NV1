@@ -12,16 +12,17 @@ input{
     position: relative;
     top: 10px;
 }
-ul{
+ul.card-text{
     list-style: none;
     text-align: justify;
-    font-size: .7em;
+    font-size: 1em;
     font-weight: 700;
   
 }
 
 div.card-deck{
     margin-bottom:50px;
+    margin-right: 0px!important;
 }
 
 

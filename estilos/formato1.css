@@ -17,17 +17,8 @@ body{
     height: 100vh;
 }
 
-/*Header*/
-header{
-    background-color: coral;
-    height: 60px;
-    box-shadow: inset 0px -5px 10px rgba(0, 0, 0, 0.63);
-}
-nav li{
-    display: inline-block;
-    margin: 0 0 0 15px;
-      
-}
+
+
 /*main*/
 p{
     text-align: justify;
