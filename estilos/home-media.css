@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@media screen and (max-height:851px) and (max-width:812px) {
+    section{
+        margin: 50px 20px;
+    }
+    p{
+        padding: 20px;
+    }
+}

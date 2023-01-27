@@ -1,6 +1,41 @@
 @charset "UTF-8";
 
-
+@media screen and (max-width:360px){
+    div#card2{
+        display: none;
+    }
+    div.card-deck {
+   
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-content: center;   
+   }
+    div.card{
+        margin: 90px;
+        
+        width: 250px;  
+    }
+    ul.card-text{
+        list-style: none!important;
+        text-align: justify!important;
+        font-size: .6em!important;
+        font-weight: 700!important;       
+    }
+    input{
+        min-width: 10px!important;
+        min-height: 10px!important;
+        margin-right: 5px!important;
+        position: relative;
+        top: 2px!important;
+    }
+    label{
+        height: 100%;
+        width: 90%;
+        padding-left: 5px;
+        
+    }
+}
 @media screen and (min-width:360px) and (max-width:812px) {
     div.card-deck {
    
