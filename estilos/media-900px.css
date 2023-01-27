@@ -23,8 +23,8 @@
         font-weight: 700!important;       
     }
     input{
-        min-width: 10px!important;
-        min-height: 10px!important;
+        min-width: 10px;
+        min-height: 10px;
         margin-right: 5px!important;
         position: relative;
         top: 2px!important;
@@ -104,6 +104,13 @@
         width: 90%;
         padding-left: 50px;
     }
+    input{
+        min-width: 25px;
+        min-height: 30px;
+        margin-right: 0px!important;
+        position: relative;
+        top: 10px;
+    }
 }
 @media screen and (min-width:1200px){
     div#card1{
@@ -116,7 +123,7 @@
         margin-top: 100px;
     }
     ul.card-text{
-        font-size: 1.1em!important;
+        font-size: 1em;
         font-weight: 600!important;
     }
     ul.card-text > li{
@@ -126,6 +133,13 @@
         height: 100%;
         width: 90%;
         padding-left: 50px;
+    }
+    input{
+        min-width: 25px;
+        min-height: 30px;
+        margin-right: 0px!important;
+        position: relative;
+        top: 10px;
     }
     
 }
